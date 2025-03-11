@@ -43,6 +43,12 @@ document.getElementById('testDataForm').addEventListener('submit', function(even
   event.preventDefault();
 
   const rawData = document.getElementById('testData').value.split('\n');
+
+  if (!rawData) {
+    alert("Por favor, insira os dados dos testes.");
+    return;
+  }
+  
   let newXML = '';
 
   rawData.forEach(line => {
@@ -53,6 +59,7 @@ document.getElementById('testDataForm').addEventListener('submit', function(even
   });
 
   if (newXML) { saveToXML(newXML); }
+  else { alert("Formato dos dados está incorreto. Tente novamente."); }
 });
 
 function saveToXML(newData) {
