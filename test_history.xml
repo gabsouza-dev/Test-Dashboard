@@ -1,24 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults>
     <summary>
-        <totalTests>29</totalTests>
-        <passed>23</passed>
-        <failed>6</failed>
-        <executionTime>34:39</executionTime>
+        <totalTests>55</totalTests>
+        <passed>47</passed>
+        <failed>8</failed>
+        <executionTime>1:42:15</executionTime>
     </summary>
     <tests>
+        <test name="teste 01 - criar base zerada.cy.js" time="02:22" total="5" passed="5" failed="0" />
+        <test name="teste 02 - patch system.cy.js" time="04:48" total="1" passed="1" failed="0" />
+        <test name="teste 03 - valida registros.cy.js" time="00:25" total="3" passed="2" failed="1" />
+        <test name="teste 04 - planos de contas.cy.js" time="00:42" total="2" passed="2" failed="0" />
+        <test name="teste 05 - entidade.cy.js" time="00:47" total="1" passed="0" failed="1" />
+        <test name="teste 06 - company.cy.js" time="00:26" total="1" passed="0" failed="1" />
+        <test name="teste 07 - calendario fiscal.cy.js" time="00:31" total="1" passed="0" failed="1" />
+        <test name="teste 11 - titulos.cy.js" time="00:28" total="2" passed="0" failed="2" />
+        <test name="teste 12 - lançamento contabil.cy.js" time="00:12" total="1" passed="0" failed="1" />
+        <test name="teste 21 - colaborador.cy.js" time="01:42" total="6" passed="4" failed="2" />
+        <test name="teste 22 - user.cy.js" time="00:02" total="1" passed="0" failed="1" />
         <test name="teste 01 - criar base zerada.cy.js" time="02:03" total="5" passed="5" failed="0" />
-        <test name="teste 02 - patch system.cy.js" time="04:36" total="1" passed="1" failed="0" />
-        <test name="teste 03 - planos de contas.cy.js" time="01:45" total="2" passed="2" failed="0" />
-        <test name="teste 03 - valida registros.cy.js" time="00:24" total="3" passed="3" failed="0" />
-        <test name="teste 04 - planos de contas.cy.js" time="01:38" total="2" passed="2" failed="0" />
-        <test name="teste 04 - valida registros.cy.js" time="02:08" total="3" passed="2" failed="1" />
-        <test name="teste 05 - entidade.cy.js" time="02:44" total="1" passed="1" failed="0" />
-        <test name="teste 06 - company.cy.js" time="00:37" total="1" passed="1" failed="0" />
-        <test name="teste 07 - calendario fiscal.cy.js" time="03:38" total="1" passed="0" failed="1" />
-        <test name="teste 11 - titulos.cy.js" time="03:48" total="2" passed="1" failed="1" />
+        <test name="teste 02 - patch system.cy.js" time="04:23" total="1" passed="1" failed="0" />
+        <test name="teste 03 - planos de contas.cy.js" time="00:42" total="2" passed="2" failed="0" />
+        <test name="teste 04 - valida registros.cy.js" time="00:23" total="3" passed="3" failed="0" />
+        <test name="teste 05 - entidade.cy.js" time="02:03" total="1" passed="1" failed="0" />
+        <test name="teste 06 - company.cy.js" time="00:15" total="1" passed="0" failed="1" />
+        <test name="teste 07 - calendario fiscal.cy.js" time="00:20" total="1" passed="0" failed="1" />
+        <test name="teste 11 - titulos.cy.js" time="00:26" total="2" passed="0" failed="2" />
+        <test name="teste 12 - lançamento contabil.cy.js" time="00:12" total="1" passed="0" failed="1" />
+        <test name="teste 21 - colaborador.cy.js" time="01:25" total="6" passed="1" failed="5" />
+        <test name="teste 22 - user.cy.js" time="00:02" total="1" passed="0" failed="1" />
+        <test name="teste 01 - criar base zerada.cy.js" time="02:01" total="5" passed="5" failed="0" />
+        <test name="teste 02 - patch system.cy.js" time="04:21" total="1" passed="1" failed="0" />
+        <test name="teste 03 - planos de contas.cy.js" time="00:48" total="2" passed="2" failed="0" />
+        <test name="teste 04 - valida registros.cy.js" time="00:23" total="3" passed="3" failed="0" />
+        <test name="teste 05 - entidade.cy.js" time="02:02" total="1" passed="1" failed="0" />
+        <test name="teste 06 - company.cy.js" time="00:28" total="1" passed="1" failed="0" />
+        <test name="teste 07 - calendario fiscal.cy.js" time="02:07" total="1" passed="1" failed="0" />
+        <test name="teste 11 - titulos.cy.js" time="04:37" total="2" passed="0" failed="2" />
         <test name="teste 12 - lançamento contabil.cy.js" time="01:48" total="1" passed="0" failed="1" />
-        <test name="teste 21 - colaborador.cy.js" time="07:19" total="6" passed="5" failed="1" />
-        <test name="teste 22 - user.cy.js" time="02:06" total="1" passed="0" failed="1" />
+        <test name="teste 21 - colaborador.cy.js" time="02:01" total="6" passed="4" failed="2" />
+        <test name="teste 22 - user.cy.js" time="00:02" total="1" passed="0" failed="1" />
+        <test name="teste 01 - criar base zerada.cy.js" time="02:04" total="5" passed="5" failed="0" />
+        <test name="teste 02 - patch system.cy.js" time="04:24" total="1" passed="1" failed="0" />
+        <test name="teste 03 - planos de contas.cy.js" time="00:48" total="2" passed="2" failed="0" />
+        <test name="teste 04 - valida registros.cy.js" time="00:22" total="3" passed="3" failed="0" />
+        <test name="teste 05 - entidade.cy.js" time="03:32" total="1" passed="1" failed="0" />
+        <test name="teste 06 - company.cy.js" time="00:29" total="1" passed="1" failed="0" />
+        <test name="teste 07 - calendario fiscal.cy.js" time="02:18" total="1" passed="1" failed="0" />
+        <test name="teste 11 - titulos.cy.js" time="02:59" total="2" passed="2" failed="0" />
+        <test name="teste 12 - lançamento contabil.cy.js" time="01:52" total="1" passed="0" failed="1" />
+        <test name="teste 21 - colaborador.cy.js" time="01:43" total="6" passed="4" failed="2" />
+        <test name="teste 22 - user.cy.js" time="00:02" total="1" passed="0" failed="1" />
+        <test name="teste 01 - criar base zerada.cy.js" time="02:10" total="5" passed="5" failed="0" />
+        <test name="teste 02 - patch system.cy.js" time="04:36" total="1" passed="1" failed="0" />
+        <test name="teste 03 - planos de contas.cy.js" time="01:02" total="2" passed="2" failed="0" />
+        <test name="teste 04 - valida registros.cy.js" time="00:34" total="3" passed="3" failed="0" />
+        <test name="teste 05 - entidade.cy.js" time="02:03" total="1" passed="1" failed="0" />
+        <test name="teste 06 - company.cy.js" time="00:29" total="1" passed="1" failed="0" />
+        <test name="teste 07 - calendario fiscal.cy.js" time="02:14" total="1" passed="1" failed="0" />
+        <test name="teste 11 - titulos.cy.js" time="03:04" total="2" passed="2" failed="0" />
+        <test name="teste 12 - lançamento contabil.cy.js" time="01:00" total="1" passed="0" failed="1" />
     </tests>
 </testResults>
