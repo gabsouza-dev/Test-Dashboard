@@ -12,12 +12,12 @@ function loadXMLData() {
       let passingCount = 0, failingCount = 0, pendingCount = 0, skippedCount = 0;
       
       Array.from(tests).forEach(test => {
-        const spec = test.getElementsByTagName('spec')[0].textContent;
-        const passing = parseInt(test.getElementsByTagName('passing')[0].textContent, 10);
-        const failing = parseInt(test.getElementsByTagName('failing')[0].textContent, 10);
-        const pending = parseInt(test.getElementsByTagName('pending')[0].textContent, 10);
-        const skipped = parseInt(test.getElementsByTagName('skipped')[0].textContent, 10);
-        const duration = test.getElementsByTagName('duration')[0].textContent;
+        const spec = test.getElementsByTagName('spec')[0]?.textContent || '';
+        const passing = parseInt(test.getElementsByTagName('passing')[0]?.textContent, 10) || 0;
+        const failing = parseInt(test.getElementsByTagName('failing')[0]?.textContent, 10) || 0;
+        const pending = parseInt(test.getElementsByTagName('pending')[0]?.textContent, 10) || 0;
+        const skipped = parseInt(test.getElementsByTagName('skipped')[0]?.textContent, 10) || 0;
+        const duration = test.getElementsByTagName('duration')[0]?.textContent || '';
 
         passingCount += passing;
         failingCount += failing;
